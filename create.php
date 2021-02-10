@@ -1,6 +1,5 @@
-<?php include_once 'config/init.php'; ?>
+<?php include_once 'config/init.php';
 
-<?php
 $job = new Job;
 
 if(isset($_POST['submit'])) {

@@ -1,7 +1,7 @@
 <?php include 'inc/header.php'; ?>
 
 <h2 class="page-header">Create a Job Listing</h2>
-<form action="create.html" method="post">
+<form action="create.php" method="post">
     <div class="form-group">
         <label>Company</label>
         <input type="text" name="company" class="form-control">
@@ -24,6 +24,10 @@
     <div class="form-group">
         <label>Description</label>
         <textarea name="description" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label>Location</label>
+        <input type="text" name="location" class="form-control"></input>
     </div>
     <div class="form-group">
         <label>Salary</label>
